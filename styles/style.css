@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+
+}
+
+#intro{
+    font-size: 20px;
+}
+
+h1 {
+    padding: 1em;
+}
+
+.background{
+    padding: 1em 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+#huisjes{
+    background-image: url(../images/1-huisjes.png);
+    height: 900px;
+}
+
+
+#stoep {
+    background-image: url(../images/2-stoep.png);
+    position: relative;
+    z-index: 2;
+}
+
+#aarde{
+    margin: -1em 0 0 0;
+    background-image: url(../images/3-aarde.png);
+    position: relative;
+    z-index: 1;
+}
+
+#metrotunnel{
+    margin: -8em 0 0 0;
+    background-image: url(../images/4-metrotunnel.png);
+}
+
+
+
+#grove-aarde{
+    background-image: url(../images/5-grove-aarde.png);
+    position: relative;
+    z-index: 1;
+}
+
+#grot{
+    margin: -7em 0 0 0;
+    background-image: url(../images/6-grot.png);
+    position: relative;
+    z-index: 1;
+}
+
+#steen{
+    margin: -12em 0 0 0;
+    background-image: url(../images/7-steen.png);
+    position: relative;
+    z-index: 1;
+}
+
+#lava{
+    margin: -13em 0 0 0;
+    background-image: url(../images/9-lava.png);
+
+}
+
+.stoep-row:first-of-type{
+    margin: 6em 0;
+}
+
+.stoep-row:last-of-type{
+    margin: 6em 0 6em 0;
+}
+
+.aarde-row:first-of-type{
+    margin: 0;
+}
+
+.metrotunnel-row:last-of-type{
+    margin: 6em 0 6em 0;
+}
+
+.grove-aarde-row:first-of-type{
+    margin: 0;
+}
+
+.steen-row:first-of-type{
+    margin: 10em 0 7em 0;
+}
+
+.lava-row:first-of-type{
+    margin: 12em 0 7em 0;
+    color: white;
+}
+
+.row{
+    padding: 1em;
+    margin: 7em 0;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    color: white;
+}
+
+.oud-mobiel{
+    width: 8em;
+}
+
+.nieuw-mobiel, .nieuw-scheermes, .oud-filmrol, .nieuw-filmrol, .oud-dobbelsteen {
+    width: 10em;
+}
+
+.oud-bankpas, .nieuw-bankpas, .oud-zilverenkruis, .nieuw-zilverenkruis, .oud-muziek, .nieuw-muziek {
+    width: 14em;
+}
+
+.oud-autosleutel, .nieuw-medicijn, .oud-bril, .nieuw-bril{
+    width: 15em;
+}
+
+.nieuw-autosleutel{
+    width: 20em;
+}
+
+.oud-scheermes, .oud-horloge, .nieuw-horloge{
+    height: 16em;
+}
+
+.oud-theelepel, .nieuw-theelepel{
+    height: 15em;
+}
+
+.oud-zout, .nieuw-zout, .oud-medicijn, .nieuw-riem, .oud-oorlepel, .nieuw-oorlepel, .nieuw-sleutel{
+    height: 12em;
+}
+
+
+.oud-batterij, .nieuw-batterij{
+    height: 14em;
+}
+
+
+.nieuw-dobbelsteen, .oud-riem, .oud-sleutel, .oud-ring, .nieuw-ring{
+    width: 12em;
+}
